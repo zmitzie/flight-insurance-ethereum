@@ -1,0 +1,26 @@
+{
+  "name": "flight-insurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-timeout": "^1.9.0",
+    "express": "^4.16.3",
+    "ganache-cli": "^6.1.2",
+    "mocha": "^5.2.0",
+    "solc": "0.4.20",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.26",
+    "request-promise": "^4.2.2"
+  }
+}
